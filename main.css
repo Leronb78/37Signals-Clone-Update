@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+header {
+	font-size: 12px;
+	color: rgb(153, 153, 153);
+	margin: 25px 0 0 60px;
+}
+
+	#greeting {
+		float: left;
+	}
+
+	#headernav {
+		float: right;
+		margin-right: 60px;
+	}
+
+	#headernav ul li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	#headernav ul li a {
+		color: #369;
+		text-decoration: none;
+	}
+
+	#headernav ul li a:hover {
+		color: #69c;
+	}
+
+.main {
+	height: 900px;
+	width: 820px;
+	/*border: 1px solid black;*/
+	margin: 20px auto;
+	clear: both;
+	overflow: hidden;
+}
+
+	#logo {
+		width: 164px;
+		height: 39px;
+		margin: 40px auto 0;
+	}
+
+	/*.taglines {
+		border: 1px solid red;
+		width: 100%;
+	}*/
+
+	h1 {
+		line-height: 1.0em;
+		letter-spacing: -2px;
+		font-size: 55px;
+		font-family: 'Crimson Text', serif;
+		font-style: normal;
+		font-weight: 600;
+		text-align: center;
+		margin-top: 25px;
+		color: #232323;
+	}
+
+	h5 {
+		font-size: 20px;
+		font-family: 'Crimson Text', serif;
+		text-align: center;
+		color: #222;
+		font-weight: 600;
+		margin-top: 20px;
+	}
+
+	#products {
+		position: absolute;
+		width: 720px;
+		/*border: 1px solid yellow;*/
+		margin-top: 40px;
+		margin-left: 5%;
+	}
+
+	.productbox {
+		float: left;
+		border: 1px solid #e8e8e8;
+		border-radius: 5px;
+		margin: 15px 20px 5px;
+		height: 215px;
+		width: 160px;
+		background: -webkit-linear-gradient(#fff, #efefef);
+		padding: 20px 10px 10px;
+		font-family: 'Lucida Grande'
+	}
+
+	.productbox img {
+		width:105px;
+		margin: 5px 27.5px;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 21px;
+		font-weight: bold;
+		color: #369;
+	}
+
+	h2 span {
+		text-decoration: underline;
+	}
+
+	h2 sup {
+		font-size: 11px;
+		vertical-align: super;
+		color: #999;
+	}
+
+	h3 {
+		text-align: center;
+		color: #cc0000;
+		font-size: 14px;
+		font-weight: bold;
+		margin: 10px 0;
+	}
+
+	.productbox p {
+		text-align: center;
+		color: #222;
+		font-size: 14px;
+		margin-top: 5px;
+		line-height: 1.4em;
+	}
+
+.asterisk {
+	/*border: 1px solid red;*/
+	width: 72px;
+	height: 12px;
+	margin: 10px auto;
+	background: url('images/img-hr.png') no-repeat;
+}
+
+.alt_tag h1 {
+	font-size: 48px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.alt_tag h1 span {
+	color: #336699;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.alt_tag p {
+	margin-top: 15px;
+	font-size: 15px;
+	line-height: 1.4em;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+.arrow {
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#bc_tag .arrow {
+	margin-left: 245px;
+	position: fixed;
+}
+
+#hr_tag .arrow {
+	margin-left: 465px;
+	position: fixed;
+}
+
+#cf_tag .arrow {
+	margin-left: 535px;
+	position: fixed;
+}
